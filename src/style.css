@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background-color: #30292f;
+   color: #d8dbe2;
+
+}
+
+nav-link{
+    
+}
+
+.custom-link a{
+    color: #e3170a !important;
+}
+.custom-link a:hover{
+    color: #413f54 !important;
+    background-color: #d8dbe2;
+}
+
+.my-custom-navbar {
+    --bs-tertiary-bg-rgb: 65, 63, 84; /* Replace yourRGBValues with your desired color in RGB format */
+    --bs-bg-opacity: 1; /* Or any other opacity value you want */
+}
+
+
+/* main section */
+
+main{
+    height: 100vh;
+}
+
+.max-vh-100{
+    max-height: 100vh;
+}
+
+.full-vh {
+    height: 100vh;
+    width: auto;
+    object-fit: cover; /* This will ensure the image covers the entire area without stretching */
+}
+
+.full-vh-image {
+    max-height: 65vh;
+    width: auto;
+    object-fit: cover; /* This will ensure the image covers the entire area without stretching */
+}
+
+.btn-primary{
+    --bs-btn-color:#d8dbe2;
+    --bs-btn-bg:#e3170a;
+    --bs-btn-border-color: #e3170a;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #d8dbe2;
+    --bs-btn-hover-border-color: #d8dbe2;
+    --bs-btn-active-color: #e3170a;
+    --bs-btn-active-bg: #d8dbe2;
+}
+
+.intro{
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 7rem;
+}
+
+.titles{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.current-status{
+    font-weight: 200;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.main-continue{
+    width: 100vw;
+    background-color: hsl(312, 8%, 20%);
+}
+
+/* footer section */
+
+
+@media screen and (max-width: 992px) {
+    .full-vh-image {
+        display: none; /* This will hide the element */
+    }
+}
