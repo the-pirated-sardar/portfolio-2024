@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/work.css">
 </head>
-<body>
+<body onload="displayDate()">
     <header>
         <nav class="navbar navbar-text navbar-expand-lg my-custom-navbar container">
             <div class="container-fluid">
@@ -33,22 +34,106 @@
         <div class="container pt-5">
             <div class="row pt-5">
                 <div class="col-lg-6">
-                    <h3 class = "intro">
-                        Hello! I am
-                    </h3>
-                    <h2 class = "name">
-                        Prateek
-                    </h2>
-                    <h3 class = "titles">
-                        Programmer <span style="font-size: 2.5rem; color: #e3170a">|</span> Developer <span style="font-size: 2.5rem; color: #e3170a">|</span> Designer
-                    </h3>
-                    <div class = "pt-3">
-                        <a href="#" class="btn btn-primary mt-4 px-4 pt-2 rounded-pill  me-3">My Resume</a>
-                        <a href="#" class="btn btn-primary mt-4 px-4 pt-2 rounded-pill">My Work</a>
+                    <div class = "main-custom-height">
+                        <h3 class = "intro">
+                            Hello! I am
+                        </h3>
+                        <h2 class = "name">
+                            Prateek
+                        </h2>
+                        <h3 class = "pro-titles">
+                            Programmer <span style="font-size: 2.5rem; color: #e3170a">|</span> Developer <span style="font-size: 2.5rem; color: #e3170a">|</span> Designer
+                        </h3>
+                        <div class = "pt-3">
+                            <a href="#" class="btn btn-primary mt-4 px-4 pt-2 rounded-pill  me-3">My Resume</a>
+                            <a href="#" class="btn btn-primary mt-4 px-4 pt-2 rounded-pill">My Work</a>
+                        </div>
+                        <p class = "current-status pt-4"> Looking for full-time co-op/internships starting May 2024</p>
                     </div>
-                    <p class = "current-status pt-4"> Looking for full-time co-op/internships starting May 2024</p>
+
+
+                    <!-- -------------------work section---------------------- -->
+                    <div>
+                        <h2 class = "pb-4">
+                            My Work
+                        </h2>
+                        <div class = "row">
+
+
+
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-8  py-5">
+                                <div class="work-card text-center">
+                                    <div class="work-card-body">
+                                        <div class="circle">
+                                            <span><p>Icon</p></span>
+                                        </div>
+                                        <h4 class = "fw-bold">Work 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea consectetur explicabo veniam nihil reprehenderit quos corporis. Maxime at sunt officiis maiores deleniti necessitatibus, atque animi dicta nihil numquam, distinctio assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
+
+
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-8  py-5">
+                                <div class="work-card text-center">
+                                    <div class="work-card-body">
+                                        <div class="circle">
+                                            <span><p>Icon</p></span>
+                                        </div>
+                                        <h4 class = "fw-bold">Work 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea consectetur explicabo veniam nihil reprehenderit quos corporis. Maxime at sunt officiis maiores deleniti necessitatibus, atque animi dicta nihil numquam, distinctio assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
+
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-8  py-5">
+                                <div class="work-card text-center">
+                                    <div class="work-card-body">
+                                        <div class="circle">
+                                            <span><p>Icon</p></span>
+                                        </div>
+                                        <h4 class = "fw-bold">Work 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea consectetur explicabo veniam nihil reprehenderit quos corporis. Maxime at sunt officiis maiores deleniti necessitatibus, atque animi dicta nihil numquam, distinctio assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
+
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-8  py-5">
+                                <div class="work-card text-center">
+                                    <div class="work-card-body">
+                                        <div class="circle">
+                                            <span><p>Icon</p></span>
+                                        </div>
+                                        <h4 class = "fw-bold">Work 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea consectetur explicabo veniam nihil reprehenderit quos corporis. Maxime at sunt officiis maiores deleniti necessitatibus, atque animi dicta nihil numquam, distinctio assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
                 </div>
 
+
+
+                
 
                 <!-- <div class="col-lg-2">
                 </div> -->
@@ -67,10 +152,21 @@
                         <div class = "timeline-card">
                             <div class = "">
                                 <a href="#" class="btn btn-timeline ">
-                                    <h1 class = "timeline-card-title">Card #1</h1>
-                                    <p class = "timeline-card-text">
-                                        I am currently a student at the University of Waterloo pursuing a Bachelor of Computer Science. I am also a part of the co-op program at Waterloo, which means I get to work at different companies every 4 months. I am currently looking for a full-time co-op/internship starting May 2022.
-                                    </p>
+                                    <h1 class = "timeline-card-title text-uppercase"><span class = "timeline-card-title-larger">P</span>rojects in <span class = "timeline-card-title-larger">P</span>rogress</h1>
+                                    <p class = "text-lg-end date">Updated on <span id="currentDate" class = "fw-bold"></span></p>
+                                    <ul>
+                                        <li class = "timeline-card-text text-lg-start">
+                                            Primarily working on this <span class = "timeline-red-text">portfolio website</span>.
+                                        </li>
+                                        <br>
+                                        <li class = "timeline-card-text text-lg-start"> 
+                                            As part of school, working on a revamped version of OpenAI's ChatGPT user interface, with a <span class = "timeline-red-text">focus on heuristics</span>.
+                                        </li>
+                                        <br>
+                                        <li class = "timeline-card-text text-lg-start"> 
+                                            Building an <span class = "timeline-red-text">app with Swift UI</span> to measure approximate maintenance calories. Building it to learn Swift UI, <span class = "timeline-red-text">Apple Health integration</span> with apps and to help me with my fitness goals.
+                                        </li>
+                                    </ul>
                                 </a>
                             </div>
                         </div>
@@ -78,6 +174,7 @@
                             <div class = "">
                                 <a href="#" class="btn btn-timeline ">
                                     <h1 class = "timeline-card-title">Card #2</h1>
+                                    <p class = "text-lg-end date">date</p>
                                     <p class = "timeline-card-text">
                                         I am currently a student at the University of Waterloo pursuing a Bachelor of Computer Science. I am also a part of the co-op program at Waterloo, which means I get to work at different companies every 4 months. I am currently looking for a full-time co-op/internship starting May 2022.
                                     </p>
@@ -88,6 +185,29 @@
                             <div class = "">
                                 <a href="#" class="btn btn-timeline ">
                                     <h1 class = "timeline-card-title">Card #3</h1>
+                                    <p class = "text-lg-end date">date</p>
+                                    <p class = "timeline-card-text">
+                                        I am currently a student at the University of Waterloo pursuing a Bachelor of Computer Science. I am also a part of the co-op program at Waterloo, which means I get to work at different companies every 4 months. I am currently looking for a full-time co-op/internship starting May 2022.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "timeline-card">
+                            <div class = "">
+                                <a href="#" class="btn btn-timeline ">
+                                    <h1 class = "timeline-card-title">Card #3</h1>
+                                    <p class = "text-lg-end date">date</p>
+                                    <p class = "timeline-card-text">
+                                        I am currently a student at the University of Waterloo pursuing a Bachelor of Computer Science. I am also a part of the co-op program at Waterloo, which means I get to work at different companies every 4 months. I am currently looking for a full-time co-op/internship starting May 2022.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "timeline-card">
+                            <div class = "">
+                                <a href="#" class="btn btn-timeline ">
+                                    <h1 class = "timeline-card-title">Card #3</h1>
+                                    <p class = "text-lg-end date">date</p>
                                     <p class = "timeline-card-text">
                                         I am currently a student at the University of Waterloo pursuing a Bachelor of Computer Science. I am also a part of the co-op program at Waterloo, which means I get to work at different companies every 4 months. I am currently looking for a full-time co-op/internship starting May 2022.
                                     </p>
@@ -104,5 +224,6 @@
     </main>
     
 
+    <script src = "js/date.js"></script>
 </body>
 </html>

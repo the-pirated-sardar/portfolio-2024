@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -9,6 +10,10 @@
 body{
    background-color: #30292f;
    color: #d8dbe2;
+}
+
+.red-text{
+    color: #e3170a;
 }
 
 .navbar-text{
@@ -76,10 +81,12 @@ main{
     font-size: 7rem;
 }
 
-.titles{
+.pro-titles{
     font-weight: 200;
     font-size: 1.5rem;
 }
+
+
 
 .current-status{
     font-weight: 200;
@@ -87,9 +94,19 @@ main{
     font-style: italic;
 }
 
+.main-custom-height{
+    height: 27%;
+}
+
 .main-continue{
     width: 100vw;
     background-color: hsl(312, 8%, 20%);
+}
+
+.date{
+    font-weight: 200;
+    font-size: 1rem;
+    color: #e3170a;
 }
 
 /* footer section */
