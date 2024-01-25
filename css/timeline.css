@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
 .timeline-title-1{
     font-size: 3rem;
@@ -38,6 +45,13 @@
     --bs-btn-active-color: #e3170a;
     --bs-btn-active-bg: #d8dbe2;
 }
+.timeline-red-text{
+    color: #fba39d;
+}
+.btn-timeline.timeline-red-text {
+    --bs-btn-hover-color: #620a04 !important;
+}
+
 
 /* ------------------------------  timeline with line on right  ----------------------------------------- */
 
@@ -103,7 +117,11 @@
 } */
 
 .timeline-card-title{
-
+    font-weight: 300;
+    font-size: 2rem;
+}
+.timeline-card-title-larger{
+    font-size: 2.5rem;
 }
 
 
