@@ -109,11 +109,36 @@ main{
     color: #e3170a;
 }
 
+/* website-wide section */
+
+.page-title{
+    font-weight: 350;
+    font-size: 5rem;
+}
+.page-title-smaller{
+    font-size: 4rem;
+}
+.page-para{
+    font-weight: 300;;
+    font-size: 1.3rem;
+}
+
 /* footer section */
 
 
 @media screen and (max-width: 992px) {
     .full-vh-image {
         display: none; /* This will hide the element */
+    }
+}
+@media screen and (max-width: 990px) {
+    .page-title{
+        font-size: 3rem;
+    }
+    .page-title-smaller{
+        font-size: 3rem;
+    }
+    .page-para{
+        font-size: 1rem;
     }
 }
