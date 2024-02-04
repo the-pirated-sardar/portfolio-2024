@@ -30,13 +30,13 @@
 .btn-work{
     height: 100%;
     width: 100%;
-    border-radius: 15%;
+    border-radius: 0.5rem;
     --bs-btn-color: #30292f;
     --bs-btn-bg: #d8dbe2;
-    --bs-btn-border-color: #e3170a;
+    --bs-btn-border-color: #000;
     --bs-btn-hover-color: #d8dbe2;
     --bs-btn-hover-bg: #e3170a;
-    --bs-btn-hover-border-color: #d8dbe2;
+    --bs-btn-hover-border-color: #000;
     --bs-btn-active-color: #e3170a;
     --bs-btn-active-bg:#d8dbe2;
 }
