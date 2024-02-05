@@ -8,7 +8,10 @@
 }
 
 .timeline-title-1{
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    letter-spacing: 0.1rem;
 }
 
 .timeline-title-2{
@@ -30,7 +33,8 @@
 }
 
 .timeline-card div{
-    border: 2px solid #72e1d1;
+    /* border: 2px solid #72e1d1; */
+    border: 2px solid #413f54;
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -60,14 +64,16 @@
 /* ------------------------------  timeline with line on right  ----------------------------------------- */
 
 .timeline-card:nth-child(n){
-    border-right: 3px solid #72e1d1;
+    /* border-right: 3px solid #72e1d1; */
+    border-right: 3px solid #413f54;
     padding-right: 2rem;
     transform: translateX(-2rem);
 }
 
 .timeline-card:nth-child(n)::before{
     content: "";
-    background: #72e1d1;
+    /* background: #72e1d1; */
+    background: #413f54;
     position: absolute;
     width: 2rem;
     height: 3px;
@@ -79,7 +85,8 @@
 .timeline-card:nth-child(n) div::before{
     content: "";
     background: #30292f;
-    box-shadow: 0 0 0.5rem #73e0d0;
+    /* box-shadow: 0 0 0.5rem #73e0d0; */
+    box-shadow: 0 0 0.5rem #413f54;
     width: 0.8rem;
     height: 0.8rem;
     position: absolute;

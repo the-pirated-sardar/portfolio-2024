@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap');
 
 *{
     padding: 0;
@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    --bs-navbar-toggler-border-color: rgba(216, 219, 226,1); /* Replace with your desired color */
+}  
 
 body{
    background-color: #30292f;
@@ -36,6 +40,11 @@ nav-link{
     --bs-tertiary-bg-rgb: 65, 63, 84; /* Replace yourRGBValues with your desired color in RGB format */
     --bs-bg-opacity: 1; /* Or any other opacity value you want */
 }
+
+.custom-toggler-icon {
+    color: #d8dbe2; /* Replace #yourColor with the hex color you want */
+}
+
 
 
 /* main section */
@@ -78,7 +87,7 @@ main{
 
 .name{
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 8rem;
 }
 
 .pro-titles{
@@ -90,7 +99,7 @@ main{
 
 .current-status{
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-style: italic;
 }
 
