@@ -162,4 +162,8 @@
         transform: translateX(-40%);
         display: none;
     }
+    .btn-timeline{
+        display: block;
+    }
+    
 }
