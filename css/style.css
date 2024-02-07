@@ -148,6 +148,7 @@ main{
 
 /* footer section */
 
+/* media queries */
 
 @media screen and (max-width: 992px) {
     .full-vh-image {
@@ -165,3 +166,42 @@ main{
         font-size: 1rem;
     }
 }
+
+
+/* animation section */
+
+  /* Apply the animation to elements with a staggered delay */
+  .animate-1,
+  .animate-2,
+  .animate-3,
+  .animate-4,
+  .animate-5 {
+    opacity: 0; /* Initially set opacity to 0 */
+    visibility: hidden; /* Initially hide elements */
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  
+
+  .animate-1 { animation-delay: 0.1s; }
+  .animate-2 { animation-delay: 0.2s; }
+  .animate-3 { animation-delay: 0.3s; }
+  .animate-4 { animation-delay: 0.4s; }
+  .animate-5 { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px);
+    }
+    1% {
+      visibility: visible;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+  
+  
