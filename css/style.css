@@ -55,13 +55,7 @@ body{
 
 /* main section */
 
-main{
-    height: 100vh;
-}
 
-.max-vh-100{
-    max-height: 100vh;
-}
 
 .full-vh {
     height: 100vh;
@@ -154,6 +148,16 @@ main{
 
 /* footer section */
 
+.btn-social{
+    color: #d8dbe2; 
+}
+.btn-social i{
+    font-size: 2rem;
+}
+.btn-social p{
+    font-size: 1rem;
+}
+
 /* media queries */
 
 @media screen and (max-width: 992px) {
@@ -171,6 +175,9 @@ main{
     .page-para{
         font-size: 1rem;
     }
+    /* .navbar-collapse {
+        text-align: end;
+        justify-content: flex-end; /* Aligns menu items to the right */
 }
 
 
@@ -209,6 +216,8 @@ main{
       transform: translateY(0);
     }
   }
+
+  /* footer section */
   
   
 /* bootstrap rewrite or addition section */
