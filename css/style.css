@@ -12,9 +12,11 @@
 }  
 
 body{
-   background-color: #30292f;
+   /* background-color: #30292f; */
    color: #d8dbe2;
+   background-color: #151515;
 }
+
 
 .red-text{
     color: #e3170a;
@@ -22,11 +24,15 @@ body{
 
 .navbar-text{
     font-size: 1.5rem;
+    font-weight: 300;
 }
 
-nav-link{
-    
-}
+.dynamic-line {
+    height: 3px; 
+    background-color: #30292f; 
+    max-width: 60vw;
+    margin: auto;
+  }
 
 .custom-link a{
     color: #e3170a !important;
@@ -86,7 +92,7 @@ main{
 }
 
 .name{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 8rem;
 }
 
@@ -100,7 +106,7 @@ main{
 .current-status{
     font-weight: 200;
     font-size: 1.2rem;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .main-custom-height{
@@ -205,3 +211,7 @@ main{
   }
   
   
+/* bootstrap rewrite or addition section */
+  .card-title{
+    font-size: 1.5rem;
+  }
