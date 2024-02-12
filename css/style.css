@@ -8,7 +8,7 @@
 }
 
 :root {
-    --bs-navbar-toggler-border-color: rgba(216, 219, 226,1); /* Replace with your desired color */
+    --bs-navbar-toggler-border-color: rgba(216, 219, 226,1);
 }  
 
 body{
@@ -43,8 +43,8 @@ body{
 }
 
 .my-custom-navbar {
-    --bs-tertiary-bg-rgb: 65, 63, 84; /* Replace yourRGBValues with your desired color in RGB format */
-    --bs-bg-opacity: 1; /* Or any other opacity value you want */
+    --bs-tertiary-bg-rgb: 65, 63, 84;
+    --bs-bg-opacity: 1;
 }
 
 .custom-toggler-icon {
@@ -121,8 +121,12 @@ body{
 /* website-wide section */
 
 .page-title{
-    font-weight: 350;
+    font-weight: 400;
     font-size: 5rem;
+}
+.page-title-context{
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 .page-title-smaller{
     font-size: 4rem;
