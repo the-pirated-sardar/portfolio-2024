@@ -2,6 +2,10 @@
 
 Welcome to the repository for my personal portfolio website. This website is a comprehensive showcase of my work, achievements, and experiences as a Computer Science undergraduate passionate about technology and its applications.
 
+## Deplyed Website
+
+The website is deployed and live at [prateek-arora.com](https://prateek-arora.com/). Hosted via GitHub Pages.
+
 ## Website Overview
 
 The website is structured with the following main sections:
