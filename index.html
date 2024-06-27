@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/work.css">
     <script src="https://kit.fontawesome.com/ac046c5e98.js" crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
 </head>
 <body onload="displayDate()">
     <header class = "animate-1">
@@ -52,7 +53,7 @@
                             <br>
                             I strive to be an example of how computing professionals can make a difference while having a balanced life.
                         </p>
-                        <p class = "current-status pt-5 animate-4 text-lg-start"> Looking for full-time co-op/internship starting May 2024</p>
+                        <p class = "current-status pt-5 animate-4 text-lg-start"> Looking for full-time co-op/internship starting Sept 2024</p>
                         <p class = "current-status animate-4 text-lg-start">Based in <span style="color: #f3e5ab;">Vancouver, British Columbia</span></p>
                         <div class = "animate-4 text-lg-start">
                             <a href="html/work.html" class="btn btn-primary mt-4 px-4 pt-2 rounded-pill me-3">My Work</a>
@@ -79,6 +80,25 @@
                                             <h5 class="card-title py-3">ScholarSprint AI Application</h5>
                                             <p class="card-text pt-4 px-1">
                                                 React application that uses AI to expedite the search for research papers for students and instructors.
+                                            </p>
+                                            <p class="card-text text-end"><small class="text-body-secondary">GitHub repository... <i class="fa-solid fa-arrow-up-right-from-square"></i></small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-12 pt-3 pb-5">
+                            <a href = "https://github.com/the-pirated-sardar/pacman-AI" target="_blank" class="btn btn-work-temp mb-3 ps-3 btn-work" style="max-width: 100%;">
+                                <div class="row g-0">
+                                    <div class="col-md-6 d-flex justify-content-center align-items-center mt-3" style="background-color: #151515; border-radius: 0.5rem;">
+                                        <img src="images/pacman.jpeg" class="img-fluid rounded-start align-items-center py-2" alt="portfolio project logo" style = "width: 90%;">
+                                    </div>
+                                    <div class="col-md-6 ps-2">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-3">Artificial Intelligence in PacMan</h5>
+                                            <p class="card-text pt-4 px-1">
+                                                Python implementation of AI concepts like Markov Decision Processes (MDPs), reinforcement learning, Bayesian networks and Hidden Markov Models
                                             </p>
                                             <p class="card-text text-end"><small class="text-body-secondary">GitHub repository... <i class="fa-solid fa-arrow-up-right-from-square"></i></small></p>
                                         </div>
@@ -212,22 +232,46 @@
                     <h1 class = "page-subtitle py-5 text-lg-end pe-lg-5">Milestones</h1>
                     <div class="timeline d-flex flex-column">
                         <div class = "timeline-card">
-                            <div style="display: block;">
-                                <a href="html_projects/current_projects.html" class="btn btn-timeline ">
-                                    <h1 class = "timeline-card-title"><span class = "timeline-card-title-larger">P</span>rojects in <span class = "timeline-card-title-larger">P</span>rogress</h1>
-                                    <p class = "text-end date">Updated on <span id="currentDate" class = "fw-bold"></span></p>
+                            <div class = "">
+                                <a href="https://youtube.com/@thepiratedsardar?&sub_confirmation=1" target="_blank" class="btn btn-timeline ">
+                                    <h1 class = "timeline-card-title">
+                                        <span class = "timeline-card-title-larger">YouTube</span>
+                                    </h1>
+                                    <h2 class = "timeline-card-title-smaller">
+                                        The Pirated Sardar
+                                    </h2>
+                                    <p class = "text-end date"><span class = "fw-bold">Feb 2024</span> - current</p>
                                     <ul>
                                         <li class = "timeline-card-text text-start pb-3">
-                                            Portfolio Website.
-                                        </li>
-                                        <li class = "timeline-card-text text-start pb-3"> 
-                                            Revamping the heursitics of ChatGPT's interface.
+                                            Venture to learn production processes of video content creation
                                         </li>
                                         <li class = "timeline-card-text text-start"> 
-                                            iOS app for calculating maintanince calories.
+                                            Tech, lefestyle, and personal development content
                                         </li>
                                     </ul>
-                                    <p class = "text-end text-decoration-underline">read more...</p>
+                                    <p class = "text-end"><span class = "text-decoration-underline">YouTube Channel...</span>  <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "timeline-card">
+                            <div class = "">
+                                <a href="https://oswaldlabs.com/" target="_blank" class="btn btn-timeline ">
+                                    <h1 class = "timeline-card-title">
+                                        <span class = "timeline-card-title-larger">O</span>swald <span class = "timeline-card-title-larger">L</span>abs
+                                    </h1>
+                                    <h2 class = "timeline-card-title-smaller">
+                                        iOS and Full-Stack Developer
+                                    </h2>
+                                    <p class = "text-end date fw-bold">Jan 2023 - April 2024</p>
+                                    <ul>
+                                        <li class = "timeline-card-text text-start pb-3">
+                                            Developed Shravan app for iOS and chromium-based browsers
+                                        </li>
+                                        <li class = "timeline-card-text text-start"> 
+                                            Expanded the user base by over 50% by launching the Oswald Labs Platform on two additional OS
+                                        </li>
+                                    </ul>
+                                    <p class = "text-end"><span class = "text-decoration-underline">Oswald Labs Website...</span>  <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
                                 </a>
                             </div>
                         </div>
@@ -240,10 +284,10 @@
                                     <p class = "text-end date fw-bold">Sept 2023 - Dec 2023</p>
                                     <ul>
                                         <li class = "timeline-card-text text-start pb-3">
-                                            Final Group Project in CMPT 276: Introduction to Software Engineering.
+                                            Final Group Project in CMPT 276: Introduction to Software Engineering
                                         </li>
                                         <li class = "timeline-card-text text-start"> 
-                                            Expediting the search for research by using AI.
+                                            Expediting the search for research by using AI
                                         </li>
                                     </ul>
                                     <p class = "text-end"><span class = "text-decoration-underline">GitHub repository...</span>  <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
@@ -251,6 +295,28 @@
                             </div>
                         </div>
                         <div class = "timeline-card">
+                            <div class = "">
+                                <a href="https://github.com/the-pirated-sardar/pacman-AI" target="_blank" class="btn btn-timeline ">
+                                    <h1 class = "timeline-card-title">
+                                        <span class = "timeline-card-title-larger">A</span>rtificial <span class = "timeline-card-title-larger">I</span>ntelligence
+                                    </h1>
+                                    <h2 class = "timeline-card-title-smaller">
+                                        Concepts in PacMan
+                                    </h2>
+                                    <p class = "text-end date fw-bold">Sept 2023 - Dec 2023</p>
+                                    <ul>
+                                        <li class = "timeline-card-text text-start pb-3">
+                                            AI concepts applied to the game of PacMan, laerned in a course adapted from UC Berkeley's CS188
+                                        </li>
+                                        <li class = "timeline-card-text text-start"> 
+                                            Implemented search algorithms, reinforcement learning, and adversarial search to create intelligent agents
+                                        </li>
+                                    </ul>
+                                    <p class = "text-end"><span class = "text-decoration-underline">GitHub repository...</span>  <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class = "timeline-card">
                             <div class = "">
                                 <a href="html/not_found.html" class="btn btn-timeline ">
                                     <h1 class = "timeline-card-title">
@@ -270,21 +336,24 @@
                                     <p class = "text-end text-decoration-underline">read more...</p>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class = "timeline-card">
                             <div class = "">
                                 <a href="html/not_found.html" class="btn btn-timeline ">
                                     <h1 class = "timeline-card-title">
-                                        <span class = "timeline-card-title-larger">P</span>eer <span class = "timeline-card-title-larger">E</span>ducation <span class = "timeline-card-title-larger">M</span>anager
+                                        <span class = "timeline-card-title-larger">P</span>eer <span class = "timeline-card-title-larger">E</span>ducation
                                     </h1>
+                                    <h2 class = "timeline-card-title-smaller">
+                                        Manager
+                                    </h2>
                                     <p class = "text-end date fw-bold">Jan 2021 - December 2022</p>
                                     <ul>
                                         <li class = "timeline-card-text text-start">
-                                            Manager for 2 academic terms.
+                                            Manager for 2 academic terms
                                             <p class = "text-end date">May 2022 - Dec 2022</p>
                                         </li>
                                         <li class = "timeline-card-text text-start"> 
-                                            Peer Educator for 4 academic terms.
+                                            Peer Educator for 4 academic terms
                                             <p class = "text-end date">Jan 2021 - April 2022</p>
                                         </li>
                                     </ul>
@@ -301,10 +370,30 @@
                                     <p class = "text-end date"><span class = "fw-bold">Sept 2020</span> - current</p>
                                     <ul>
                                         <li class = "timeline-card-text text-start">
-                                            Commenced my Bachelor of Science in Computing Science in Fall 2020.
+                                            Commenced my Bachelor of Science in Computing Science in Fall 2020
                                         </li>
                                     </ul>
                                     <p class = "text-end"><span class = "text-decoration-underline">read more on SFU's webiste...</span>  <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "timeline-card">
+                            <div style="display: block;">
+                                <a href="html_projects/current_projects.html" class="btn btn-timeline ">
+                                    <h1 class = "timeline-card-title"><span class = "timeline-card-title-larger">P</span>rojects in <span class = "timeline-card-title-larger">P</span>rogress</h1>
+                                    <p class = "text-end date">Updated on <span id="currentDate" class = "fw-bold"></span></p>
+                                    <ul>
+                                        <li class = "timeline-card-text text-start pb-3">
+                                            A Portfolio Website created using React.JS
+                                        </li>
+                                        <li class = "timeline-card-text text-start pb-3"> 
+                                            Revamping the heursitics of ChatGPT's interface
+                                        </li>
+                                        <li class = "timeline-card-text text-start"> 
+                                            iOS app for calculating maintanince calories
+                                        </li>
+                                    </ul>
+                                    <p class = "text-end text-decoration-underline">read more...</p>
                                 </a>
                             </div>
                         </div>
